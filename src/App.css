@@ -1,0 +1,12 @@
+#root {
+  font-family: Prompt;
+  max-width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+/* เพิ่มไอคอนขนาดใหญ่เมื่อหน้าจอขนาดเล็ก */
+@media (max-width: 768px) {
+  .icon-large {
+    font-size: 1.5rem; /* ปรับขนาดของไอคอนใหญ่ขึ้น */
+  }
+}
